@@ -1,0 +1,722 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     font-family: "DM Serif Text", serif;
+}
+#header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(bg_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+   gap: 30%;
+    background-color: #fff;
+    height: 90px;
+    margin-top: 10px;
+
+}   
+#menu>ul{
+    
+    display: flex;
+    gap: 25px;
+    position: relative;
+    top: 45px;
+    color: rgb(33, 33, 80);
+    font-size: 20px;
+    font-weight: 700;
+
+   
+} 
+#menu>ul>a{
+    text-decoration: none;
+    list-style: none;
+}
+#menu>ul>a:hover{
+    color: rgb(230, 107, 26);
+}
+
+#logo>img{
+    position: absolute;
+
+    left: 30px;
+    height: 90px;
+    width: 150px;
+    border-radius: 60px;
+}
+#content{
+    position: absolute;
+    right: 100px;
+    top: 200px;
+}
+#content>h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #1e2353;
+}
+#content>h3{
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    color: #3c3b6e;
+}
+.btn{
+    position: relative;
+    top: 40px;
+    height: 40px;
+    width: 200px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+  
+}
+#btn1{
+    background-color: #1e2353;
+    border-style: none;
+}
+#btn1:hover{
+    box-shadow:5px 5px 6px rgb(230, 107, 26);
+}
+#btn2{
+    background-color:rgb(230, 107, 26);
+    border-style: none;
+}
+#btn2:hover{
+    box-shadow:5px 5px 6px #1e2353;
+}
+#containers{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 580px;
+    left: 200px;
+    gap: 100px;
+   
+    
+}
+#Container>i{
+    font-size: 30px;
+    color: rgb(230, 107, 26);
+}
+#Container{
+    height: 130px;
+    width: 250px;
+    background-color: rgb(248, 246, 237);
+    padding: 10px;
+    text-align: center;
+     border-radius: 15px;
+     box-shadow: 3px 3px 6px black;
+
+}
+
+#brands{
+    min-height: 150vh;
+    width: 100%;
+    background-color:rgb(247, 235, 235) ;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#brands>h1{
+    position: relative;
+    top: 90px;
+    left: 10px;
+    color: grey;
+}
+.brand-card>img{
+    height: 100px;
+    width: 100px;
+}
+#image1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 140px;
+}
+#image2{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 130px;
+}
+#row1{
+    display: flex;
+    justify-content: space-evenly;
+}
+#row2{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.sub-row{
+    height: 200px;
+    width: 200px;
+     position: relative;
+    top: 150px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px grey;
+}
+.sub-row>img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 30px;
+    left: 65px;
+    border-radius: 50%;
+   
+}
+.sub-row>h4{
+    position: relative;
+    top: 50px;
+    left: 65px;
+    font-size: 25px;
+    color:rgb(124, 116, 116) ;
+}
+.sub-row>h3{
+    position: relative;
+    top: 70px;
+    left: 65px;
+    font-size: 25px;
+    color:rgb(124, 116, 116) ;
+}
+.sub-row:hover{
+    cursor: pointer;
+    box-shadow: -3px -3px 6px grey;
+}
+#view{
+    height: 200px;
+    width: 400px;
+
+}
+#explore{
+    min-height: 70vh;
+    width: 100%;
+    background-color:rgb(253, 249, 249) ;
+    }
+#explore>h1{
+    position: relative;
+    top: 20px;
+    color: grey;
+}   
+#explore-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+} 
+.explore-sub-row{
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+}
+#col1{
+    background-image: linear-gradient(to bottom ,rgb(109, 228, 109),rgb(55, 160, 55),rgb(1, 128, 1));
+}
+#col2{
+    background-image: linear-gradient(to bottom ,#7297db,rgb(46, 118, 151),rgb(41, 60, 172));
+}
+#col3{
+    background-image: linear-gradient(to bottom ,#f18282,rgb(223, 64, 64),rgb(187, 31, 31));
+}
+#col4{
+    background-image: linear-gradient(to bottom ,#e679e0,rgb(114, 54, 114),rgb(111, 8, 121));
+}
+.explore-sub-row>h3{
+    color: #fff;
+    background-color: rgb(41, 40, 40);
+    height: 30px;
+    width: 170px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 5px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.explore-sub-row>h3:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgb(59, 59, 59);
+}
+.explore-sub-row>i{
+    position: relative;
+    top: 80px;
+    left: 80px;
+    font-size: 70px;
+    color: rgb(230, 176, 26);
+}
+.explore-sub-row>h2{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: #fcf5f5;
+}
+.explore-sub-row>h4{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: small;
+    color: #f1ebeb;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.explore-sub-row:hover{
+    position: relative;
+    top: 20px;
+    box-shadow: 3px 3px 6px rgb(44, 43, 43);
+}
+#footer{
+    min-height: 30vh;
+    width: 100%;
+    background-image: url(footer.jpg);
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+}
+#footer>h3{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+    color: gray;
+
+}
+/*--------------------Buy Car----------------------------------*/
+#buy_header{
+    min-height: 60vh;
+    width: 100%;
+    background-color: #3c3b6e;
+    background-image: url(buy-car.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+#buy_navbar>ul{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 40px;
+   left: 50px;
+}
+#buy_navbar>ul>a{
+    color:#fff;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 800;
+}
+#buy_navbar>ul>a:hover{
+    color: rgb(230, 107, 26);
+
+}
+#search>i{
+    color: #fff;
+    font-size: 20px;
+}
+#search>i:hover{
+    cursor: pointer;
+    color: rgb(230, 107, 26);
+}
+#search>select{
+    width: 250px;
+    height: 30px;
+    border-radius: 25px;
+    text-align: center;
+}
+#buy_header>h1{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 4px black;
+}
+#buy-body{
+    height: 170vh;
+    width: 100%;
+    background-color: rgb(253, 250, 245);
+}
+#option>ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(32, 32, 32);
+   position: relative;
+   top: 30px;
+}
+#option>ul>li{
+    background-color: #fff;
+    list-style: none;
+    height: 30px;
+    width: 120px;
+    border-radius: 25px;
+    text-align: center;
+
+}
+#buy-body>h4{
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+#buy-card{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card-cls{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 80px;
+    background-image: linear-gradient(to top, rgb(241, 230, 230) 20%,#fff 10%, rgb(233, 226, 226) 70%);
+    border-radius: 15px;
+
+}
+.card>img{
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+    position: relative;
+    left: 50px;
+}
+.card>h4{
+    position: absolute;
+    right: 10px;
+    color: #1e2353;
+}
+.card>h3{
+    position: relative;
+    left: 10px;
+    color: #1e2353;
+}
+.card>ul{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10px;
+}
+.card>ul>li{
+    list-style: none;
+    font-weight: 300;
+    color: grey;
+}
+.card>h2{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-weight: 200;
+    color: #7297db;
+}
+#working{
+    min-height: 50vh;
+    width: 100%;
+    position: relative;
+    top: 60px;
+}
+#working>h1{
+    color: gray;
+    padding-left: 20px;
+}
+#work-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.working-card{
+    height: 200px;
+    width: 300px;
+    background-color: #9ab5e7;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+.working-card>h2{
+    color: #1e2353;
+    text-align: center;
+}
+.working-card>p{
+   text-align: center;
+   padding-top: 40px;
+   font-size: 20px;
+   color: #1e2353;
+}
+#footer-buy>h3{
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    color: #1e2353;
+   
+}
+#footer-buy{
+    
+    background-color: rgb(230, 107, 26);
+}
+/*---------------------------Sell Car-----------------------------------*/
+#sell_header{
+    min-height: 50vh;
+    width: 100%;
+    background-color: #3c3b6e;
+    background-image: url(sell_car.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    opacity: 1;
+}
+#sell_navbar>ul{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 40px;
+   left: 50px;
+}
+#sell_navbar>ul>a{
+    color:#fff;
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 800;
+}
+#sell_navbar>ul>a:hover{
+    color: rgb(230, 107, 26);
+
+}
+#sell_header>h1{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 4px black;
+}
+#sell_header>h3{
+     position: relative;
+    top: 150px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 4px black;
+}
+#sell_body{
+    min-height: 35vh;
+    width: 100%;
+    background-color: #f1ebeb;
+}
+#sell_body>h1{
+    position: relative;
+    top: 20px;
+    padding-left: 10px;
+    font-weight: 400;
+}
+span{
+    color: #1e2353;
+
+    font-weight: 700;
+}
+#sell_body>p{
+    position: relative;
+    top: 50px;
+    padding-left: 250px;
+    color: #3c3b6e;
+    font-size: 25px;
+    display: inline;
+}
+#sell_body>input{
+     position: relative;
+    top: 50px;
+    left: 20px;
+    height: 40px;
+    width: 350px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: gray;
+}
+#sell_body>h3{
+    position: relative;
+    top: 100px;
+    padding-left: 550px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#steps{
+    min-height: 50vh;
+    width: 100%;
+    background-color: #f1ebeb;
+}
+#steps>h2{
+    color: gray;
+    padding-left: 20px;
+}
+#sub-steps{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+}
+.step{
+    background-color: #7297db;
+    height: 260px;
+    width: 250px;
+    border-radius: 25px;
+}
+.step>h1{
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.step>h3{
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+.step>img{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 70px;
+    border-radius: 50%;
+}
+#review{
+    min-height: 20vh;
+    width: 100%;
+    background-color: #f1ebeb;
+}
+#review>h3{
+    padding-left: 1%;
+    font-size: 25px;
+    color: gray;
+}
+#review>h1{
+    display: inline;
+    padding-left: 20%;
+    padding-top: 10%;
+    font-size: 40px;
+    color: #1e2353;
+}
+#review>i{
+    font-size: 30px;
+    color: goldenrod;
+    position: relative;
+    left: 2px;
+}
+#review>a{
+    position: relative;
+    left: 2px;
+    color: #000;
+}
+#sell-footer{
+    min-height: 40vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom,rgb(230, 172, 64),rgb(252, 216, 151));
+}
+#lists{
+    display: flex;
+    gap: 10%;
+    padding-top: 3%;
+}
+.list{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1e2353;
+    padding-left: 5%;
+}
+.list>li:hover{
+    cursor: pointer;
+    color: rgb(230, 107, 26);
+}
+#sell-footer>h3{
+    text-align: center;
+    padding-top: 2%;
+    color: #1e2353;
+}
+/*------------------Account-----------------------*/
+#account-nav{
+    min-height: 5%;
+    width: 100%;
+    background-color: #fff;
+}
+#a-navbar{
+    
+    padding-top: 3%;
+    padding-left: 3%;
+   
+}
+#a-navbar>a{
+     color: rgb(230, 107, 26);
+    font-size: 40px;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#account-body{
+    min-height: 80vh;
+    width: 100%;
+    background-color: #f1ebeb;
+}
+#login>h2{
+    text-align: center;
+    color: #1e2353;
+    padding-top: 3%;
+    font-size: 30px;
+}
+#login>input{
+     position: relative;
+    top: 50%;
+    margin-left: 40%;
+    margin-top: 3%;
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+   
+}
+#login>a{
+   padding-left: 47%;
+   font-size: 25px;
+   font-weight: 600;
+   position: relative;
+   top: 5%;
+
+}
+#create-acc{
+    margin-top: 5%;
+    margin-left: 40%;
+}
+#create-acc>p{
+    font-size: 20px;
+}
+#create-acc>h4{
+    padding-top: 5%;
+    font-size: 20px;
+}
+#ac-footer{
+     min-height: 7%;
+    text-align: center;
+    background-color: rgb(230, 107, 26);
+   
+}
