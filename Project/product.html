@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #f1d9d9;
+        font-family: "Cormorant Garamond", serif;
+        
+    }
+    
+    #header{
+        position: relative;
+        top: 30px;
+        text-align: center;
+        animation-name: header;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+    }
+    @keyframes header{
+        from{
+            position: relative;
+        top: 0;
+        text-align: center;
+
+        }
+        to{
+            position: relative;
+        top: 30px;
+        text-align: center;
+
+        }
+    }
+   
+    #rose{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        top: 70px;
+        
+    }
+    #lily{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+       bottom: 20px;
+        
+    }
+    #wedding{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+       top: 100px;
+        
+    }
+    #wreath{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        bottom: 30px;
+        
+    }
+    .lily>img{
+        height: 300px;
+        width: 200px;
+        border-radius: 15px;
+         z-index: 150;
+    }
+    .wedding>img{
+        height: 300px;
+        width: 200px;
+        border-radius: 15px;
+         z-index: 150;
+    }
+    .wreath>img{
+        height: 300px;
+        width: 200px;
+        border-radius: 15px;
+         z-index: 150;
+    }
+    .rose>img{
+        height: 300px;
+        width: 200px;
+        border-radius: 15px;
+       
+        
+    }
+    #price{
+        text-align: center;
+        position: relative;
+        
+        bottom: 305px;
+        border-radius:15px ;
+        color: #fff;
+        z-index: 20;
+        opacity: 0;
+        padding-top: 80px;
+        height: 300px;
+        width: 200px;
+    }
+    #price>h4{
+        background-color: rgb(129, 6, 74);
+        color: #fff;
+        height: 30px;
+        width: 100px;
+        text-align: center;
+        border-radius: 25px;
+        margin-left: 45px;
+        padding-top: 5px;
+        position: relative;
+        top: 40px;
+    }
+    #price:hover{
+        opacity: 1;
+        background-color:hsla(240, 1%, 18%, 0.6);
+        cursor: pointer;
+        
+
+    }
+    .rose>img:hover{
+        opacity: 0.6;
+    }
+    #title{
+        color:rgb(129, 6, 74) ;
+        position: relative;
+        left: 5px;
+        top: 50px;
+    }
+    #title2{
+        color:rgb(129, 6, 74) ;
+        position: relative;
+        left: 5px;
+       bottom: 100px;
+    }
+    #title3{
+        color:rgb(129, 6, 74) ;
+        position: relative;
+        left: 5px;
+        top: 30px;
+    }
+    #title4{
+        color:rgb(129, 6, 74) ;
+        position: relative;
+        left: 5px;
+        bottom: 90px;
+    }
+    marquee{
+        font-size: 30px;
+        background-color: goldenrod;
+        position: relative;
+        bottom: 150px;
+    }
+    #offer{
+         color:rgb(129, 6, 74) ;
+        position: relative;
+        left: 5px;
+       bottom: 100px;
+        text-align: center;
+        animation-name: offer;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+ }
+ #mixed{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+ }
+ .mix>img{
+    height: 350px;
+    width: 70px;
+    border-radius: 60px;
+    opacity: 0.3;
+
+ }
+ .mix>img:hover{
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    opacity: 1;
+
+ }
+ @keyframes offer{
+    from{
+        
+        position: relative;
+        left: 5px;
+        bottom: 100px;
+        text-align: center;
+    }
+    to{
+        color:rgb(204, 84, 14) ;
+        transform:rotate(360deg) ;
+    }
+ }
+</style>
+<body>
+    <div id="header">
+        <h1>Products</h1>
+    </div>
+        <div id="folwers">
+            <h1 id="title">Here, a Beautiful Roses waiting for you....</h1>
+            <div id="rose">
+                
+                <div class="rose">
+                      <img src="../Project/image/rose1.jpg" alt="">
+                      <div id="price">
+                        <h2>Rs: 150</h2>
+                        <h4>Add to Cart</h4>
+                      </div>
+                </div>
+                <div class="rose">
+                      <img src="../Project/image/rose2.jpg" alt="">
+                      <div id="price">
+                        <h2>Rs: 180</h2>
+                        <h4>Add to Cart</h4>
+                      </div>
+                      
+                </div>
+              
+                <div class="rose">
+                      <img src="../Project/image/rose3.jpg" alt="">
+                      <div id="price">
+                        <h2>Rs: 120</h2>
+                        <h4>Add to Cart</h4>
+                      </div>
+                </div>
+              
+                <div class="rose">
+                      <img src="../Project/image/rose4.jpg" alt="">
+                  <div id="price">
+                        <h2>Rs: 200</h2>
+                        <h4>Add to Cart</h4>
+                      </div>
+                </div>
+              
+                <div class="rose">
+                      <img src="../Project/image/rose5.jpg" alt="">
+                      <div id="price">
+                        <h2>Rs: 250</h2>
+                        <h4>Add to Cart</h4>
+                      </div>
+                </div>
+              
+              
+            </div>
+            <marquee behavior="" direction="left">Offer going for each order, Hurry Up✨✨</marquee>
+             <h1 id="title2">Give a Look for Lily flowers.....</h1>
+            <div id="lily">
+                <div class="lily">
+                  <img src="../Project/image/lily1.jpg" alt="">
+                   <div id="price">
+                        <h2>Rs: 390</h2>
+                        <h4>Add to Cart</h4>
+                      </div>
+                </div>
+                <div class="lily">
+                  <img src="../Project/image/lily2.jpg" alt="">
+                   <div id="price">
+                        <h2>Rs: 190</h2>
+                        <h4>Add to Cart</h4>
+                      </div>
+                </div>
+                <div class="lily">
+                  <img src="../Project/image/lily3.jpg" alt="">
+                   <div id="price">
+                        <h2>Rs: 380</h2>
+                        <h4>Add to Cart</h4>
+                      </div>
+                </div>
+                <div class="lily">
+                  <img src="../Project/image/lily4.jpg" alt="">
+                   <div id="price">
+                        <h2>Rs: 300</h2>
+                        <h4>Add to Cart</h4>
+                      </div>
+                </div>
+                <div class="lily">
+                  <img src="../Project/image/lily5.jpg" alt="">
+                   <div id="price">
+                        <h2>Rs: 280</h2>
+                        <h4>Add to Cart</h4>
+                      </div>
+                </div>
+                 
+            </div>
+            <div id="offer">
+                <h1>50% Offer on First Order</h1>
+            </div>
+
+            <div id="mixed">
+                
+                <div class="mix"><img src="../Project/image/mix2.png" alt=""></div>
+                <div class="mix"><img src="../Project/image/mix3.jpg" alt=""></div>
+                <div class="mix"><img src="../Project/image/mix4.jpg" alt=""></div>
+                <div class="mix"><img src="../Project/image/mix5.jpg" alt=""></div>
+                <div class="mix"><img src="../Project/image/mix6.jpg" alt=""></div>
+                <div class="mix"><img src="../Project/image/mix7.jpg" alt=""></div>
+                <div class="mix"><img src="../Project/image/mix8.jpg" alt=""></div>
+                <div class="mix"><img src="../Project/image/mix9.jpg" alt=""></div>
+                <div class="mix"><img src="../Project/image/mix10.jpg" alt=""></div>
+            </div>
+            <h1 id="title3">We are Selling Wedding boque.....</h1>
+            <div id="wedding">
+                <div class="wedding"><img src="../Project/image/wedding1.jpg" alt="">
+                <div id="price">
+                        <h2>Rs: 1100</h2>
+                        <h4>Add to Cart</h4>
+                      </div></div>
+                <div class="wedding"><img src="../Project/image/wedding2.jpg" alt="">
+                <div id="price">
+                        <h2>Rs: 860</h2>
+                        <h4>Add to Cart</h4>
+                      </div></div>
+                <div class="wedding"><img src="../Project/image/wedding3.jpg" alt="">
+                <div id="price">
+                        <h2>Rs: 1120</h2>
+                        <h4>Add to Cart</h4>
+                      </div></div>
+                <div class="wedding"><img src="../Project/image/wedding4.jpg" alt="">
+                <div id="price">
+                        <h2>Rs: 900</h2>
+                        <h4>Add to Cart</h4>
+                      </div></div>
+                <div class="wedding"><img src="../Project/image/wedding5.jpg" alt="">
+                <div id="price">
+                        <h2>Rs: 720</h2>
+                        <h4>Add to Cart</h4>
+                      </div></div>
+            </div>
+            <h1 id="title4">Customized Wreaths are available with low budget..</h1>
+            <div id="wreath">
+                <div class="wreath"><img src="../Project/image/wreath1.jpg" alt="">
+                <div id="price">
+                        <h2>Rs: 1100</h2>
+                        <h4>Add to Cart</h4>
+                      </div></div>
+                <div class="wreath"><img src="../Project/image/wreath2.jpg" alt="">
+                <div id="price">
+                        <h2>Rs: 860</h2>
+                        <h4>Add to Cart</h4>
+                      </div></div>
+                <div class="wreath"><img src="../Project/image/wreath3.jpg" alt="">
+                <div id="price">
+                        <h2>Rs: 1120</h2>
+                        <h4>Add to Cart</h4>
+                      </div></div>
+                <div class="wreath"><img src="../Project/image/wreath4.jpg" alt="">
+                <div id="price">
+                        <h2>Rs: 900</h2>
+                        <h4>Add to Cart</h4>
+                      </div></div>
+                <div class="wreath"><img src="../Project/image/wreath5.jpg" alt="">
+                <div id="price">
+                        <h2>Rs: 720</h2>
+                        <h4>Add to Cart</h4>
+                      </div></div>
+            </div>
+            
+        </div>
+
+    
+    
+</body>
+</html>

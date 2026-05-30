@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #f1d9d9;
+            font-family: "Cormorant Garamond", serif;
+        }
+        #header>h1{
+            font-size: 40px;
+            font-weight: 500;
+            position: relative;
+            top: 40px;
+            text-align: center;
+            animation-duration: 2s;
+            animation-name: header;
+            animation-iteration-count: 1;
+        }
+        @keyframes header{
+            from{
+                font-size: 40px;
+            font-weight: 500;
+            position: relative;
+            top: 10px;
+            text-align: center;
+            }
+            to{
+            position: relative;
+            top: 40px;
+            text-align: center;
+            }
+
+        }
+        #content{
+            position: relative;
+            top: 100px;
+            display: flex;
+            gap: 100px;
+            padding-left: 150px;
+
+        }
+        #form{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            background-color: #eee7e7;
+            height: 350px;
+            width: 500px;
+            border-radius: 25px;
+            padding-left: 40px;
+            padding-top: 30px;
+            box-shadow: 3px 2px 3px rgb(49, 49, 49);
+        }
+        form>label{
+            font-size: 20px;
+            font-weight: 700;
+            color: #680909;
+        }
+        form>input{
+            height: 20px;
+            width: 200px;
+            border-color :none ;
+        }
+        #details>h3{
+            color:#680909 ;
+        }
+        #details>p{
+            color: #693838;
+        }
+        img{
+            position: relative;
+            top: 20px;
+            height: 300px;
+            width: 400px;
+            border-radius: 100%;
+            box-shadow: 5px 5px 10px rgb(214, 157, 11);
+        }
+        button{
+            position: relative;
+            left: 100px;
+            top: 30px;
+            height: 30px;
+            width: 80px;
+            background-color:#f1d9d9;
+            color: #680909;
+            border-radius: 25px;
+            border-color: #f1d9d9;
+            cursor: pointer;
+        }
+        i{
+            color: #693838;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Contact us</h1>
+    </div>
+    <div id="content">
+        <div id="form">
+              <div id="contact">
+                <form action="">
+                    <label for="">Name: </label>
+                    <input type="text">
+                    <br>
+                    <br>
+                    <label for="">E-mail:</label>
+                    <input type="email">
+                    <br>
+                    <br>
+                    <label for="">Message:</label>
+                    <textarea name="" id=""></textarea>
+                    <br>
+                    <button>send</button>
+                </form>
+                
+              </div>
+              <div id="details">
+                <h3>Shop Address:</h3>
+                <p>Anna nagar 3rd extension, vijaya nagar,<br> vellacherry, chennai</p>
+                <h3>Follow us:</h3>
+                <i class="fa-brands fa-facebook"></i>&numsp;
+                <i class="fa-brands fa-whatsapp"></i>&numsp;
+                <i class="fa-brands fa-instagram"></i>&numsp;
+                <i class="fa-brands fa-youtube"></i>&numsp;
+
+              </div>
+            
+            
+        </div>
+        <div id="img">
+            <img src="../Project/image/project_bg.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+         body{
+            background-color: #f1d9d9;
+            font-family: "Cormorant Garamond", serif;
+         }
+         h1{
+            font-size: 30px;
+            font-weight: 900;
+            text-align: center;
+            position: relative;
+            top: 30px;
+            animation-duration: 2s;
+             animation-name: heading;
+            animation-iteration-count: 1;
+         }
+         @keyframes heading{
+            from{
+                font-size: 30px;
+            text-align: center;
+            position: relative;
+            top: 10px;
+            }
+            to{
+                top:30px;
+            }
+         }
+         #form{
+           margin-top: 90px;
+           margin-left: 470px;
+           background-color: #fcf4f4;
+           width: 400px;
+           height: 320px;
+           border-radius: 25px;
+           padding-left: 20px;
+           padding-top: 20px;
+           box-shadow: 3px 3px 5px black;
+         }
+         label{
+            font-size: 20px;
+            color: #680909;
+            font-size: 20px;
+            font-weight: 700;
+         }
+         button{
+            position: relative;
+            left: 100px;
+            top: 10px;
+            height: 30px;
+            width: 80px;
+            background-color:#f1d9d9;
+            color: #680909;
+            border-radius: 25px;
+            border-color: #f1d9d9;
+            cursor: pointer;
+         }
+         
+    </style>
+</head>
+
+<body>
+    <h1>Share your Feedback</h1>
+    <div id="form">
+        <form action="">
+            
+        <label for="">Name</label>
+        <input type="text">
+        <br> <br>
+        <label for="">E-mail</label>
+        <input type="email">
+        <br><br>
+        <label for="">Contact</label>
+        <input type="tel"><br><br>
+
+        <label for="">Give ratings out of 5</label>
+        <input type="number"  >
+        <br><br>
+        <label for="">Message</label>
+        <textarea name="" id=""></textarea>
+        <br><br>
+        <button>Submit</button>&numsp;&numsp;&numsp;
+        <button>Clear</button>
+        </form>
+    </div>
+</body>
+</html>

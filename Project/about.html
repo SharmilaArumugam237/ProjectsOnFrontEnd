@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    body{
+        background-color: #f1d9d9;
+        font-family: "Cormorant Garamond", serif;
+       
+    }
+    #about{
+        display: flex;
+        gap: 30px;
+    }
+    #heading>h1{
+        position: relative;
+        top: 30px;
+        animation-duration: 3s;
+        animation-name: about;
+        animation-iteration-count: 1;
+        text-align: center;
+        font-size: 50px;
+        letter-spacing: 4px;
+        font-weight: 900;
+        }
+        @keyframes about{
+            from{
+                position: relative;
+        top: 0;
+        animation-duration: 5s;
+        animation-name: about;
+        animation-iteration-count: 1;
+        text-align: center;
+        font-size: 50px;
+        letter-spacing: 4px;
+        font-weight: 900;
+            }
+            to{
+                position: relative;
+                top: 30px;
+            }
+        }
+
+    img{
+        height: 400px;
+        width: 400px;
+        position: relative;
+        top: 60px;
+        left: 70px;
+        animation-duration: 3s;
+        animation-name: img;
+        animation-iteration-count: 1;
+        border-radius: 15px;
+         box-shadow: 10px 5px 3px rgb(107, 60, 68);
+       
+    }  
+    @keyframes img{
+        from{
+            height: 400px;
+        width: 400px;
+        position: relative;
+        top: 60px;
+        left: 0px;
+        animation-duration: 2s;
+        animation-name: img;
+        animation-iteration-count: 1;
+        border-radius: 15px;
+        
+
+        }
+        to{
+        position: relative;
+        top: 60px;
+        left: 70px;
+         box-shadow: 10px 5px 3px rgb(107, 60, 68);
+
+        }
+    }  
+
+    #content{
+        height: 330px;
+        width: 400px;
+        position: relative;
+        left: 279px;
+        top: 90px;
+        animation-duration: 2s;
+        animation-name: ctn;
+        animation-iteration-count: 1;
+        background-color:#e2b3b3 ;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    @keyframes ctn{
+        from{
+            height: 330px;
+        width: 400px;
+        position: relative;
+        left: 379px;
+        top: 90px;
+        animation-duration: 2s;
+        animation-name: ctn;
+        animation-iteration-count: 1;
+        background-color:#e2b3b3 ;
+        border-radius: 10px;
+        padding: 15px;
+        }
+        to{
+        position: relative;
+        left: 279px;
+        top: 90px;
+
+        }
+    }
+    #content>h1{
+        font-size: 35px;
+        letter-spacing: 2px;
+        color: #680909;
+        text-shadow: 2px 2px 3px black;
+    }
+    #btn{
+        background-color: #680909;
+        color: #f1d9d9;
+        height: 30px;
+        width: 150px;
+        border-radius: 25px;
+        padding-top: 4px;
+        text-align: center;
+        position: relative;
+        left: 70px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+     #btn:hover{
+        color: #680909;
+        background-color: #f1d9d9;
+        cursor: pointer;
+        
+     }
+    
+</style>
+<body>
+     <div id="heading">
+            <h1>About</h1>
+        </div>
+    <div id="about">
+       
+        <img src="About_img.jpg" alt="">
+        <div id="content">
+        <h1>Why you Choose Us?</h1>
+        
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos culpa ab dolore a reiciendis, unde neque veniam at aperiam! Modi rerum velit ipsa officiis exercitationem ducimus alias eaque harum eius culpa molestiae facilis doloremque nesciunt suscipit tempora quod eligendi laborum illum a necessitatibus corrupti, sint dolorum nam deleniti! Commodi quod unde reprehenderit error maxime fugit eum sed non iste minima explicabo dolores voluptatum, nostrum at ullam dolore suscipit rerum reiciendis tempora quisquam? Error facere, distinctio modi veritatis ducimus eius quis sit vero  .</p>
+        <br>
+        <div id="btn">Learn More</div>
+    </div>
+    
+</div>
+    
+    
+</body>
+</html>
